@@ -20,6 +20,8 @@ pip install rpyc
 
 ### Older way to use RPyC
 
+(RPC server is completely controlled by the client.)
+
 #### Server
 
 `python bin/rpyc_classic.py` didn't seem to work for me, but this did:
@@ -79,3 +81,25 @@ def get_version_from_server():
 get_version_from_server = connection.teleport(get_version_from_server)
 get_version_from_server()
 ```
+
+### Newer way to use RPyC
+
+(RPC server treated as service provider)
+
+#### Server (newer way)
+
+```sh
+python server.py
+```
+
+#### Client (newer way)
+
+```sh
+python client.py
+```
+
+### Much more in the tutorial!
+
+https://rpyc.readthedocs.io/en/latest/tutorial.html
+
+Netrefs (network references)? Exceptions? Callbacks between client/server? Async operation and events?
