@@ -4,6 +4,8 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 ELI5: RPC = ask another computer to do something https://www.reddit.com/r/explainlikeimfive/comments/1rt51c/eli5wth_is_remote_procedure_call_rpc/
 
+RPC vs API vs REST vs GraphQL: https://apisyouwonthate.com/blog/understanding-rpc-rest-and-graphql (REST involves a little more than you might think)
+
 Wiktionary definition: https://en.wiktionary.org/wiki/remote_procedure_call
 
 Wikipedia page for further reading and more links: https://en.wikipedia.org/wiki/Remote_procedure_call
